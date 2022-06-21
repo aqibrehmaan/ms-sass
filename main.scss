@@ -61,7 +61,7 @@ body {
 
 .sass-introduction {
   @extend .sass-section;
-  box-shadow: $size-tiny $size-tiny $size-tiny / 2 #ccc;
+  box-shadow: $size-tiny $size-tiny calc($size-tiny / 2) #ccc;
 
   p {
     margin: 0;
@@ -74,7 +74,7 @@ body {
 }
 
 .section-header {
-  border-bottom: $size-tiny / 4 solid map-get($colors, main);
+  border-bottom: calc($size-tiny / 4) solid map-get($colors, main);
 
   h1 {
     margin: 0 0 1rem 0;
