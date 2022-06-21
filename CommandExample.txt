@@ -1,0 +1,7 @@
+// Compile single file
+
+sass main.scss main.css
+
+// Watch
+
+sass --watch main.scss:main.css
